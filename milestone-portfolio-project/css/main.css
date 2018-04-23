@@ -1,0 +1,169 @@
+/******* BASE STYLE ******/
+
+body{
+    font-family:'Playfair Display', serif;
+    font-family: 'Bubbler One', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#about, #skills, #work, #contact {
+    height: 600px;
+}
+
+/****** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width:600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/****** HEADER ******/
+
+header {
+    height:400px;
+    background-color: #91B4CD;
+}
+ header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 75px;
+    padding: 50px 0;
+    color: white;
+ }
+ header h1 span {
+   font-family:'Kaushan Script', cursive;
+   font-size:60px;
+ }
+header h2 {
+    font-family: 'Bubbler One', sans-serif;
+    font-size: 45px;
+    color: grey;
+    padding-top: 20px;
+}
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header li {
+    color: white;
+    font-family:'Playfair Display', serif;
+    font-size: 30px;
+    display:inline-block;
+    margin-right: 1px;
+}
+/******* ABOUT *****/
+
+#about .full-width{
+  padding: 20px 0;
+}
+#about img {
+   height: 350px;
+   width: 500px;
+   border: 5px solid #99D19C;
+}
+#about h2 {
+  color: #99D19C;
+  font-family: 'Kaushan Script', cursive;
+  font-size:50px;
+  padding-right: 20px;
+  text-align:left
+}
+#about p {
+  color: grey;
+  font-family: 'Bubbler One', sans-serif;
+  font-size: 30px;
+  padding-right: 20px;
+  text-align: left;
+}
+
+/******* SKILLS *******/
+
+#skills .full-width{
+  padding: 20px 0;
+}
+
+#skills h2{
+  color:#99D196;
+  font-family:'Playfair Display', serif;
+  font-size:50px;
+}
+
+#skills img{
+  padding-left:135px;
+}
+
+#skills h3{
+  color:grey;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 35px;
+  text-align: center;
+}
+
+#skills p{
+  color: grey;
+  font-family: 'Bubbler One', sans-serif;
+  font-size:30px;
+  text-align: center;
+}
+
+/****** WORK ******/
+
+#work {
+  background-color:#91B4CD;
+}
+#work h2{
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  text-align: left;
+}
+#work img{
+  height:250px;
+  width:350px;
+  padding-left:30px;
+}
+#work h3{
+  color: white;
+  font-family:'Kaushan Script', cursive;
+  text-align:center;
+  font-size:35px;
+}
+#work p{
+  color:grey;
+  font-family: 'Bubbler One', sans-serif;
+  font-size:30px;
+  text-align: center;
+}
+
+/******* CONTACT *******/
+
+#contact {
+  height:400px;
+}
+#contact h2{
+  color:#99D196;
+  font-family: 'Playfair-Display', serif;
+  font-size:50px;
+}
+#contact h3{
+  font-family:'Bubbler One', sans-serif;
+  font-size:40px;
+}
+#contact img{
+  height:100px;
+  width:100px;
+}
+#contact ul{
+  list-style: none;
+}
+#contact ul li {
+  display:inline-block;
+}
